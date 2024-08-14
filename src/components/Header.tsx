@@ -21,22 +21,34 @@ function PhoneHeader(): ReactElement {
     const [isMenuOpen, setIsMenuOpen] = useState<bool>(false);
 
     return (
-        <header>
-            <div>
-                <img 
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    src={isMenuOpen ? CrossMenu : BurgerMenu}
-                />
-                <Link to="/">
-                    <img src={AdobeLogo} />
-                    <p>Adobe</p>
-                </Link>
-            </div>
-            <div>
-                <img src={GridMenu} />
-                <button>Sign in</button>
-            </div>
-        </header>
+        <>
+            <header>
+                <div>
+                    <img 
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                        src={isMenuOpen ? CrossMenu : BurgerMenu}
+                    />
+                    <Link to="/">
+                        <img src={AdobeLogo} />
+                        <p>Adobe</p>
+                    </Link>
+                </div>
+                <div>
+                    <img src={GridMenu} />
+                    <button>Sign in</button>
+                </div>
+            </header>
+            {isMenuOpen &&
+                <nav>
+                    {["Creativity & Design", "Marketing & Commerce", "Help & Support"].map((summary: string, index: number): ReactElement => 
+                        <details key={index}>
+                            <summary>{summary}</summary>
+                            <section></section>
+                        </details>
+                    )}
+                </nav>
+            }
+        </>
     )
 }
 

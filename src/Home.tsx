@@ -1,5 +1,7 @@
-export default function Home() {
+import { ReactElement } from "react";
+
+export default function Home(): ReactElement {
     return (
-        <p>Hoempage</p>
+        <p>Homepage</p>
     )
 }

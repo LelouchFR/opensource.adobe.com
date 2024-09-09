@@ -1,4 +1,6 @@
-export default function Home() {
+import { ReactElement } from "react";
+
+export default function Home(): ReactElement {
     return (
         <p>Homepage</p>
     )

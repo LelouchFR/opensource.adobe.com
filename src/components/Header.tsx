@@ -4,6 +4,7 @@ import AdobeLogo from "../assets/svg/adobe.svg";
 import BurgerMenu from "../assets/svg/burger-menu.svg";
 import CrossMenu from "../assets/svg/cross.svg";
 import GridMenu from "../assets/svg/menu-grid.svg";
+import "../assets/styles/headers.scss"; // "@styles/headers.scss";
 
 export default function Header(): ReactElement {
     const [width, setWidth] = useState<number>(window.innerWidth);
@@ -18,7 +19,7 @@ export default function Header(): ReactElement {
 }
 
 function PhoneHeader(): ReactElement {
-    const [isMenuOpen, setIsMenuOpen] = useState<bool>(false);
+    const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
     return (
         <>
@@ -29,7 +30,7 @@ function PhoneHeader(): ReactElement {
                         src={isMenuOpen ? CrossMenu : BurgerMenu}
                     />
                     <Link to="/">
-                        <img src={AdobeLogo} />
+                        <img src={AdobeLogo} width="25px" />
                         <p>Adobe</p>
                     </Link>
                 </div>
@@ -57,7 +58,7 @@ function DesktopHeader(): ReactElement {
         <header>
             <div>
                 <Link to="/">
-                    <img src={AdobeLogo} />
+                    <img src={AdobeLogo} width="25px" />
                     <p>Adobe Open Source</p>
                 </Link>
                 <nav>
@@ -69,8 +70,8 @@ function DesktopHeader(): ReactElement {
                     )}
                 </nav>
             </div>
-            <div>
-                <img src={GridMenu} />
+            <div className="right_side">
+                <img src={GridMenu} width="20px" />
                 <button>Sign in</button>
             </div>
         </header>

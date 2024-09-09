@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+      "paths": {
+          "@styles/*": ["./src/assets/styles/*"]
+      }
+  },
   "files": [],
   "references": [
     {

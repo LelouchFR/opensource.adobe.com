@@ -1,0 +1,235 @@
+[
+    [
+        {
+            "title": "Shop for"
+        },
+        {
+            "title": "Creative Cloud",
+            "link": "https://www.adobe.com/creativecloud.html"
+        },
+        {
+            "title": "Photoshop",
+            "link": "https://www.adobe.com/products/photoshop.html"
+        },
+        {
+            "title": "Adobe Express",
+            "link": "https://www.adobe.com/express/?promoid=Z2G1FSYV&mv=other"
+        },
+        {
+            "title": "Photography",
+            "link": "https://www.adobe.com/creativecloud/photography.html"
+        },
+        {
+            "title": "Premiere Pro",
+            "link": "https://www.adobe.com/products/premiere.html"
+        },
+        {
+            "title": "Adobe Stock",
+            "link": "https://stock.adobe.com/pt"
+        },
+        {
+            "title": "Elements Family",
+            "link": "https://www.adobe.com/products/elements-family.html"
+        },
+        {
+            "title": "Document Cloud",
+            "link": "https://www.adobe.com/documentcloud.html"
+        },
+        {
+            "title": "Acrobat",
+            "link": "https://www.adobe.com/acrobat.html"
+        },
+        {
+            "title": "Acrobat Sign",
+            "link": "https://www.adobe.com/sign/business.html"
+        },
+        {
+            "title": "Special offers",
+            "link": "https://www.adobe.com/products/special-offers.html"
+        },
+        {
+            "title": "View plans and pricing",
+            "link": "https://www.adobe.com/creativecloud/plans.html"
+        },
+        {
+            "title": "View all products",
+            "link": "https://www.adobe.com/products/catalog.html?types=pf_252Fdesktop&types=pf_252Fmobile&type=pf_252Fweb"
+        }
+    ],
+    [
+        {
+            "title": "For business"
+        },
+        {
+            "title": "Creative Cloud for business",
+            "link": "https://www.adobe.com/creativecloud/business.html"
+        },
+        {
+            "title": "Creative Cloud for enterprise",
+            "link": "https://www.adobe.com/creativecloud/business/enterprise.html"
+        },
+        {
+            "title": "Acrobat for business",
+            "link": "https://www.adobe.com/acrobat/business.html"
+        }
+    ],
+    [
+        {
+            "title": "For education"
+        },
+        {
+            "title": "Discount for students and teachers",
+            "link": "https://www.adobe.com/creativecloud/buy/students.html"
+        },
+        {
+            "title": "Schools and universities",
+            "link": "https://www.adobe/com/education.html"
+        },
+        {
+            "title": "Digital learning Solutions",
+            "link": "https://www.adobe.com/elearning.html"
+        }
+    ],
+    [
+        {
+            "title": "For mobile"
+        },
+        {
+            "title": "Apps for iOS",
+            "link": "https://apps.adobe.com/be_nl/app/adobe-creative-cloud/id852473028"
+        },
+        {
+            "title": "Apps for Android",
+            "link": "https://play.google.com/store/apps/details?id=com.adobe.cc"
+        }
+    ],
+    [
+        {
+            "title": "Experience Cloud"
+        },
+        {
+            "title": "What is Experience Cloud?",
+            "link": "https://business.adobe.com"
+        },
+        {
+            "title": "Analytics",
+            "link": "https://business.adobe.com/products/analytics/adobe-analytics.html"
+        },
+        {
+            "title": "Experience Manager",
+            "link": "https://business.adobe.com/products/experience-manager/adobe-experience-manager.html"
+        },
+        {
+            "title": "Commerce",
+            "link": "https://business.adobe.com/products/magento/magento-commerce.html"
+        },
+        {
+            "title": "Marketo Engage",
+            "link": "https://business.adobe.com/products/marketo/adobe-marketo.html"
+        },
+        {
+            "title": "Workfront",
+            "link": "https://business.adobe.com/products/workfront/main.html"
+        },
+        {
+            "title": "Terms of Use",
+            "link": "https://www.adobe.com/go/experiencecloudterms"
+        }
+    ],
+    [
+        {
+            "title": "Support"
+        },
+        {
+            "title": "Download and install",
+            "link": "https://helpx.adobe.com/download-install.html"
+        },
+        {
+            "title": "Help Center",
+            "link": "https://helpx.adobe.com/support.html"
+        },
+        {
+            "title": "Adobe Support Community",
+            "link": "https://community.adobe.com/"
+        },
+        {
+            "title": "Enterprise Support",
+            "link": "https://helpx.adobe.com/contact/enterprise-support.html"
+        },
+        {
+            "title": "Genuine software",
+            "link": "https://www.adobe.com/genuine.html"
+        }
+    ],
+    [
+        {
+            "title": "Resources"
+        },
+        {
+            "title": "Adobe Blog",
+            "link": "https://blog.adobe.com/"
+        },
+        {
+            "title": "Adobe Developer",
+            "link": "https://developer.adobe.com/"
+        }
+    ],
+    [
+        {
+            "title": "Adobe Account"
+        },
+        {
+            "title": "Log in to your account",
+            "link": "https://account.adobe.com/"
+        }
+    ],
+    [
+        {
+            "title": "Adobe"
+        },
+        {
+            "title": "About",
+            "link": "https://www.adobe.com/about-adobe.html"
+        },
+        {
+            "title": "AI Overview",
+            "link": "https://www.adobe.com/ca/ai/overview.html"
+        },
+        {
+            "title": "Careers",
+            "link": "https://www.adobe.com/careers.html"
+        },
+        {
+            "title": "Newsroom",
+            "link": "https://news.adobe.com/"
+        },
+        {
+            "title": "Corporate responsibility",
+            "link": "https://www.adobe.com/corporate-responsibility.html"
+        },
+        {
+            "title": "Investor Relations",
+            "link": "https://www.adobe.com/investor-relations.html"
+        },
+        {
+            "title": "Supply chain",
+            "link": "https://www.adobe.com/corporate-responsibility/supply-chain.html"
+        },
+        {
+            "title": "Trust Center",
+            "link": "https://www.adobe.com/trust.html"
+        },
+        {
+            "title": "Events",
+            "link": "https://www.adobe.com/events.html"
+        },
+        {
+            "title": "Diversity and Inclusion",
+            "link": "https://www.adobe.com/diversity.html"
+        },
+        {
+            "title": "Integrity",
+            "link": "https://www.adobe.com/about-adobe/integrity.html"
+        }
+    ]
+]

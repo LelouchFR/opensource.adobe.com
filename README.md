@@ -1,7 +1,7 @@
 [Adobe Open Source](http://adobe.github.com)
 =======================
 
-Presenting [Adobe GitHub Homepage v3.0](http://adobe.github.com), the new central hub for **Adobe Open sources** projects.
+Presenting [Adobe GitHub Homepage v2.0](http://adobe.github.com), the new central hub for **Adobe Open sources** projects.
 
 Allowing you to **search through Adobe GitHub repositories**, you can focus on what you are really passionate about.
 
@@ -43,4 +43,12 @@ The information is pulled directly from the [Github API](http://developer.github
 
 ## Deploying Locally
 
-install all `node_modules` using `npm install` then you can simply run `npm run dev` to see it locally.
+Install local web server globally
+
+```
+npm i -g local-web-server
+```
+
+Run `ws` command in your terminal in the root of this project to lauch a local web server showing the site
+
+Site should be running on `http://localhost:8000/`	

@@ -1,0 +1,98 @@
+@import "./vars";
+
+header {
+    font-family: $adobe-clean;
+    position: sticky;
+
+    @media screen and (min-width: $desktop) {
+        white-space: nowrap;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            display: flex;
+            justify-content: in-between;
+            text-decoration: none;
+            gap: 15px;
+
+            p {
+                color: $red;
+                font-size: 18px;
+            }
+        }
+
+        div {
+            display: flex;
+            justify-content: stretch;
+
+            nav {
+                display: flex;
+                justify-content: space-between;
+
+                details {
+                    display: inline-block;
+                    margin: 0 auto;
+                    background: $white;
+                    transition: 0.2s;
+                    padding: 0 20px;
+
+                    &:hover {
+                        background: $white-hover;
+                    }
+
+                    summary {
+                        white-space: nowrap;
+                        list-style-type: none;
+                        display: inline-flex;
+                        align-items: center;
+                        padding: 20px 0;
+                        color: #2C2C2C;
+                        font-size: 14px;
+                        
+                        &::after {
+                            content: '';
+                            width: 18px;
+                            height: 10px;
+                            background: url("../svg/arrow.svg") no-repeat;
+                            background-size: cover;
+                            margin-left: .75em;
+                            transition: 0.2s;
+                        }
+
+                        &::webkit-details-marker {
+                            display: none;
+                        }
+                    }
+
+                    &[open] > summary::after {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+
+            &.right_side {
+                justify-content: space-around;
+                gap: 10px;
+            }
+
+            button {
+                height: 2rem;
+                border-radius: 1rem;
+                border: .125rem solid #DADADA;
+                background: $white;
+                font-size: .875rem;
+                white-space: nowrap;
+                padding: .3125rem 1rem .375rem 1rem;
+                margin: 0;
+                position: relative;
+                top: 50%;
+                transform: translate(0, -50%);
+
+                &:hover {
+                    border-color: #C6C6C6;
+                    background: #E9E9E9;
+                }
+            }
+        }
+    }
+}

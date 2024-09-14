@@ -1,6 +1,7 @@
 import { ReactElement, useState, useEffect } from "react";
 import World from "../assets/svg/world.svg";
 import footerData from "../assets/json/footer.json";
+import "../assets/styles/footer.scss";
 
 export default function Footer(): ReactElement {
     const [width, setWidth] = useState<number>(window.innerWidth);
@@ -18,11 +19,11 @@ function DesktopFooter(): ReactElement {
     return (
         <footer>
             <div>
-                {footerData.map((structs: { title: string, link?: string }[], i: number) =>
-                    <section key={i}>
+                {footerData.map((structs: FooterData[], i: number) =>
+                    <section key={i} className={`st${i}`}>
                         <h3>{structs[0].title}</h3>
                         <ul>
-                            {structs.map((struct: { title: string, link?: string }, j: number) =>
+                            {structs.map((struct: FooterData, j: number) =>
                                 j > 0 ? <li key={j}><a href={struct.link}>{struct.title}</a></li> : <></>
                             )}
                         </ul>
@@ -42,11 +43,11 @@ function PhoneFooter(): ReactElement {
     return (
         <footer>
             <div>
-                {footerData.map((structs: { title: string, link?: string }[], i: number) => 
+                {footerData.map((structs: FooterData[], i: number) => 
                     <details key={i}>
                         <summary>{structs[0].title}</summary>
                         <ul>
-                            {structs.map((struct: { title: string, link?: string }, j: number) =>
+                            {structs.map((struct: FooterData, j: number) =>
                                 j > 0 ? <li key={j}><a href={struct.link}>{struct.title}</a></li> : <></>
                             )}
                         </ul>
